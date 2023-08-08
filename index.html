@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> My Caluculator!</h1>
+  <div class="container">
+         <div class="caluculator">
+          </div>
+         <input type="text" id="result" readonly>
+         <div class="id">
+         <table>
+          <tr>
+            <td><button onclick="append(7)">7</button></td>
+            <td><button onclick="append(8)">8</button></td>
+            <td><button onclick="append(9)">9</button></td>
+            <td><button onclick="operation('+')">+</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="append(4)">4</button></td>
+            <td><button onclick="append(5)">5</button></td>
+            <td><button onclick="append(6)" >6</button></td>
+            <td><button onclick="operation('-')">-</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="append(1)">1</button></td>
+            <td><button onclick="append(2)">2</button></td>
+            <td><button onclick="append(3)">3</button></td>
+            <td><button onclick="operation('*')">*</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="append(0)">0</button></td>
+            <td><button onclick="clearresult('c')">c</button></td>
+            <td><button onclick="caluculate('=')">=</button></td>
+            <td><button onclick="operation('/')">/</button></td>
+          </tr>
+    
+         </table>
+         </div>
+         <script src="index.js">
+
+         </script>
+
+</body>
+</html>
